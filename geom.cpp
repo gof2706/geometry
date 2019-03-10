@@ -12,6 +12,7 @@ int circle1(int x1, int y1, float r1)
     s1 = p * r1 * r1;
     printf("perimetr = %.3f\n", p1);
     printf("area = %.3f\n", s1);
+    return 0;
 }
 
 int circle2(int x2, int y2, float r2)
@@ -22,6 +23,7 @@ int circle2(int x2, int y2, float r2)
     s2 = p * r2 * r2;
     printf("perimetr = %.3f\n", p2);
     printf("area = %.3f\n", s2);
+    return 0;
 }
 
 int main()
